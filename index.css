@@ -1,0 +1,108 @@
+#box{
+    margin-top: 10%;
+     text-align: center;
+ }
+ #searchBar{
+     width: 500px;
+     height: 30px;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     margin-top: 20px;
+     border: 2px lightgray solid;
+ }
+ .a{
+     text-decoration: none;
+     color: black;
+ }
+ .buttons{
+     border: none;
+     padding: 10px;
+     font-style: normal;
+ }
+ .buttons:hover{
+     border: 2px lightgray solid;
+ }
+ #top{
+     text-align: right;
+     margin: 0;
+     padding: 5px;
+ }
+ #top > a{
+     margin-right: 10px;
+ }
+ #top > a:hover {
+     text-decoration:underline;
+ }
+ #button{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 22px;
+     padding-left: 22px;
+     background-color:blue;
+     border:none;
+     border-radius: 5px;
+     font-size: 15px;
+ }
+ #bt{
+     color: white;
+ }
+ #button:hover{
+     opacity: 0.8;
+ }       
+
+ /*For Responsiveness*/
+@media(max-width:500px){
+    #box{
+        margin-top: 30%;
+    }
+
+  #img{
+      width: 300px;
+  }
+    
+    #searchBar{
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        border: 2px lightgray solid;
+       }
+  
+       .buttons{
+           padding: 15px;
+           font-size: 20px;
+       }   
+
+       #top{
+           margin-right: 10px;
+           margin-top: 10px;
+           font-size: 20px;
+       }
+
+       #button{
+           font-size: 20px;
+       }
+}
+@media(max-width:420px){
+    #searchBar{
+        width: 345px;
+        height: 32px;
+    }
+}
+
+@media(max-width:362px){
+    #searchBar{
+        width: 330px;
+        height: 35px;
+    }
+    .buttons{
+        padding:8px;
+    } 
+   }
+
+@media(max-width:351px){
+    #searchBar{
+        width: 315px;
+    }
+}
